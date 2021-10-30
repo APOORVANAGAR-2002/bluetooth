@@ -23,23 +23,37 @@ export default function () {
                     height: '100px'
                 }}></Button>
             </Grid>
-            <Grid item style={{
-                padding: '10px'
-            }}>
-                <Button style={{
-                    background: '#EDCBBD',
-                    padding: '10px',
-                    borderRadius: '50%',
-                    width: '100px',
-                    height: '100px'
-                }}></Button>
-            </Grid>
 
             <Grid item style={{
                 padding: '10px'
             }}>
                 <Button style={{
-                    background: '#EDCBBD',
+                    background: '#e1bc9d',
+                    padding: '10px',
+                    borderRadius: '50%',
+                    width: '100px',
+                    height: '100px'
+                }}></Button>
+            </Grid>
+
+            <Grid item style={{
+                padding: '10px'
+            }} >
+                <Button style={{
+                    background: '#d2996c',
+                    padding: '10px',
+                    borderRadius: '50%',
+                    width: '100px',
+                    height: '100px'
+                }}></Button>
+            </Grid>
+
+
+            <Grid item style={{
+                padding: '10px'
+            }}>
+                <Button style={{
+                    background: '#d59c6e',
                     padding: '10px',
                     borderRadius: '50%',
                     width: '100px',
@@ -51,7 +65,7 @@ export default function () {
                 padding: '10px'
             }}>
                 <Button style={{
-                    background: '#EDCBBD',
+                    background: '#906B4D',
                     padding: '10px',
                     borderRadius: '50%',
                     width: '100px',
@@ -63,7 +77,7 @@ export default function () {
                 padding: '10px'
             }} >
                 <Button style={{
-                    background: '#EDCBBD',
+                    background: '#b6683e',
                     padding: '10px',
                     borderRadius: '50%',
                     width: '100px',
@@ -75,7 +89,7 @@ export default function () {
                 padding: '10px'
             }} >
                 <Button style={{
-                    background: '#EDCBBD',
+                    background: '#9d5839',
                     padding: '10px',
                     borderRadius: '50%',
                     width: '100px',
@@ -87,19 +101,7 @@ export default function () {
                 padding: '10px'
             }} >
                 <Button style={{
-                    background: '#EDCBBD',
-                    padding: '10px',
-                    borderRadius: '50%',
-                    width: '100px',
-                    height: '100px'
-                }}></Button>
-            </Grid>
-
-            <Grid item style={{
-                padding: '10px'
-            }} >
-                <Button style={{
-                    background: '#EDCBBD',
+                    background: '#582f26',
                     padding: '10px',
                     borderRadius: '50%',
                     width: '100px',
