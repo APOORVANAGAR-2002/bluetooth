@@ -12,7 +12,10 @@ function Landing() {
                 flexDirection: 'row'
             }}>
                 <Grid item xs={12} sm={8}>
-                    <Typography variant="h6">Manually select your skin color</Typography>
+                    <Typography variant="h6" style={{
+                        textAlign: 'center',
+                        padding: '20px'
+                    }}>Manually select your skin color</Typography>
                     <Category />
                 </Grid>
                 <Grid item xs={12} sm={4}>

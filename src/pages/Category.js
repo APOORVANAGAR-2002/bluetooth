@@ -1,8 +1,5 @@
 import React from 'react';
 import { Button, Grid } from "@mui/material";
-import CategoryCard from "../components/CategoryCard";
-import SkinTone from '../components/SkinTone';
-
 
 export default function () {
     return (
