@@ -16,8 +16,8 @@ export default function () {
                     background: '#EDCBBD',
                     padding: '10px',
                     borderRadius: '50%',
-                    width: '100px',
-                    height: '100px'
+                    width: '120px',
+                    height: '120px'
                 }}></Button>
             </Grid>
 
@@ -28,8 +28,8 @@ export default function () {
                     background: '#e1bc9d',
                     padding: '10px',
                     borderRadius: '50%',
-                    width: '100px',
-                    height: '100px'
+                    width: '120px',
+                    height: '120px'
                 }}></Button>
             </Grid>
 
@@ -40,8 +40,8 @@ export default function () {
                     background: '#d2996c',
                     padding: '10px',
                     borderRadius: '50%',
-                    width: '100px',
-                    height: '100px'
+                    width: '120px',
+                    height: '120px'
                 }}></Button>
             </Grid>
 
@@ -53,8 +53,8 @@ export default function () {
                     background: '#d59c6e',
                     padding: '10px',
                     borderRadius: '50%',
-                    width: '100px',
-                    height: '100px'
+                    width: '120px',
+                    height: '120px'
                 }}></Button>
             </Grid>
 
@@ -65,8 +65,8 @@ export default function () {
                     background: '#906B4D',
                     padding: '10px',
                     borderRadius: '50%',
-                    width: '100px',
-                    height: '100px'
+                    width: '120px',
+                    height: '120px'
                 }}></Button>
             </Grid>
 
@@ -77,8 +77,8 @@ export default function () {
                     background: '#b6683e',
                     padding: '10px',
                     borderRadius: '50%',
-                    width: '100px',
-                    height: '100px'
+                    width: '120px',
+                    height: '120px'
                 }}></Button>
             </Grid>
 
@@ -89,8 +89,8 @@ export default function () {
                     background: '#9d5839',
                     padding: '10px',
                     borderRadius: '50%',
-                    width: '100px',
-                    height: '100px'
+                    width: '120px',
+                    height: '120px'
                 }}></Button>
             </Grid>
 
@@ -101,10 +101,59 @@ export default function () {
                     background: '#582f26',
                     padding: '10px',
                     borderRadius: '50%',
-                    width: '100px',
-                    height: '100px'
+                    width: '120px',
+                    height: '120px'
                 }}></Button>
             </Grid>
+
+            <Grid item style={{
+                padding: '10px'
+            }} >
+                <Button style={{
+                    background: '#b6683e',
+                    padding: '10px',
+                    borderRadius: '50%',
+                    width: '120px',
+                    height: '120px'
+                }}></Button>
+            </Grid>
+
+            <Grid item style={{
+                padding: '10px'
+            }} >
+                <Button style={{
+                    background: '#b6683e',
+                    padding: '10px',
+                    borderRadius: '50%',
+                    width: '120px',
+                    height: '120px'
+                }}></Button>
+            </Grid>
+
+            <Grid item style={{
+                padding: '10px'
+            }} >
+                <Button style={{
+                    background: '#b6683e',
+                    padding: '10px',
+                    borderRadius: '50%',
+                    width: '120px',
+                    height: '120px'
+                }}></Button>
+            </Grid>
+
+            <Grid item style={{
+                padding: '10px'
+            }} >
+                <Button style={{
+                    background: '#b6683e',
+                    padding: '10px',
+                    borderRadius: '50%',
+                    width: '120px',
+                    height: '120px'
+                }}></Button>
+            </Grid>
+
 
         </Grid>
     )

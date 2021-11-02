@@ -1,5 +1,6 @@
 import { Grid, Typography } from '@mui/material';
 import React from 'react';
+import Images from '../components/Images';
 import Navbar from "../components/Navbar";
 import Category from './Category';
 
@@ -11,15 +12,17 @@ function Landing() {
                 display: 'flex',
                 flexDirection: 'row'
             }}>
-                <Grid item xs={12} sm={8}>
+                <Grid item xs={12}>
                     <Typography variant="h6" style={{
                         textAlign: 'center',
                         padding: '20px'
                     }}>Manually select your skin color</Typography>
                     <Category />
                 </Grid>
-                <Grid item xs={12} sm={4}>
-                    <h1>Upload photo</h1>
+                <Grid item xs={12}>
+                    <Typography variant="h6" textAlign="center">or<br/>Upload image here👇:</Typography>
+                    <Images />
+
                 </Grid>
             </Grid>
         </div>
