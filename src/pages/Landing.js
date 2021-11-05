@@ -12,14 +12,14 @@ function Landing() {
                 display: 'flex',
                 flexDirection: 'row'
             }}>
-                <Grid item xs={12}>
+                <Grid item xs={12} sm={6}>
                     <Typography variant="h6" style={{
                         textAlign: 'center',
                         padding: '20px'
                     }}>Manually select your skin color</Typography>
                     <Category />
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={12} sm={6}>
                     <Typography variant="h6" textAlign="center">or<br/>Upload image here👇:</Typography>
                     <Images />
 

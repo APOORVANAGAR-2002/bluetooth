@@ -106,55 +106,6 @@ export default function () {
                 }}></Button>
             </Grid>
 
-            <Grid item style={{
-                padding: '10px'
-            }} >
-                <Button style={{
-                    background: '#b6683e',
-                    padding: '10px',
-                    borderRadius: '50%',
-                    width: '120px',
-                    height: '120px'
-                }}></Button>
-            </Grid>
-
-            <Grid item style={{
-                padding: '10px'
-            }} >
-                <Button style={{
-                    background: '#b6683e',
-                    padding: '10px',
-                    borderRadius: '50%',
-                    width: '120px',
-                    height: '120px'
-                }}></Button>
-            </Grid>
-
-            <Grid item style={{
-                padding: '10px'
-            }} >
-                <Button style={{
-                    background: '#b6683e',
-                    padding: '10px',
-                    borderRadius: '50%',
-                    width: '120px',
-                    height: '120px'
-                }}></Button>
-            </Grid>
-
-            <Grid item style={{
-                padding: '10px'
-            }} >
-                <Button style={{
-                    background: '#b6683e',
-                    padding: '10px',
-                    borderRadius: '50%',
-                    width: '120px',
-                    height: '120px'
-                }}></Button>
-            </Grid>
-
-
         </Grid>
     )
 }

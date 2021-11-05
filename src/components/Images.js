@@ -25,18 +25,19 @@ export default function Images() {
                 flexDirection: "row",
                 alignItems: "center",
                 justifyContent: "center",
+                padding: '10px'
             }}
         >
-            <Input
+            <input
                 type="file"
                 accept="image/*"
                 onChange={handleImageUpload}
                 ref={imageUploader}
                 style={{
-                    display: "none"
+                    display: "none",
                 }}
             />
-            <Grid item xs={12} onClick={() => imageUploader.current.click()} style={{
+            <Grid item xs={12} sm={6} onClick={() => imageUploader.current.click()} style={{
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "center",
@@ -45,18 +46,22 @@ export default function Images() {
                 <img
                     ref={uploadedImage}
                     style={{
-                        width: '80%',
+                        width: '100vw',
                         height: '50vh',
                         border: '2px dashed #000000',
                         borderRadius: '20px',
                     }}
                 />
             </Grid>
-            <Typography variant="body1" style={{
-                display: 'flex',
-                flexDirection: 'row',
-                alignItems: 'center'
-            }}>Click to upload image</Typography>
+            <Grid item xs={12}>
+            <Typography variant="body1" textAlign="center" style={{
+                    // display: 'flex',
+                    // flexDirection: 'row',
+                    // alignItems: 'center'
+                }}>Click to upload image</Typography>
+
+
+            </Grid>
         </Grid>
     );
 }
